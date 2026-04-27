@@ -7,7 +7,7 @@ app = FastAPI()
 def home():
     return {
         "message": "Welcome to FastAPI Backend",
-        "status": "active"
+        "status": "staging"
     }
 
 
