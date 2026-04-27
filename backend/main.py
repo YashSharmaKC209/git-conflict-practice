@@ -7,7 +7,7 @@ app = FastAPI()
 def home():
     return {
         "message": "Welcome to FastAPI Backend",
-        "status": "running"
+        "status": "active"
     }
 
 
@@ -15,4 +15,11 @@ def home():
 def get_users():
     return {
         "users": ["Yash", "Aman", "Naman"]
+    }
+
+
+@app.get("/health")
+def health_check():
+    return {
+        "health": "ok"
     }
