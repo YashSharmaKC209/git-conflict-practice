@@ -3,7 +3,7 @@ function App() {
     <div>
       <h1>Project Dashboard</h1>
       <p>Welcome to Development and Staging Environment</p>
-      <button>Login</button>
+      <button>Log In Button</button>
     </div>
   );
 }
